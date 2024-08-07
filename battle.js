@@ -8,9 +8,9 @@ const {
   Squirtle,
   Bulbasaur,
   Rattata,
-} = require("pokemon.js");
-const Pokeball = require("pokeball.js");
-const Trainer = require("trainer.js");
+} = require("../Pokemon-Battler/pokemon.js");
+const Pokeball = require("../Pokemon-Battler/pokeball.js");
+const Trainer = require("../Pokemon-Battler/trainer.js");
 
 class Battle {
   constructor(trainerA, trainerB, pokemonA, pokemonB) {
@@ -30,7 +30,11 @@ class Battle {
       this.trainerA === this.currentTurn
         ? this.trainerBCurrentPokemon
         : this.trainerACurrentPokemon;
-    let damage = attackingPokemon.useMove();
+    let damage = attackingPokemon.useMove(
+      this.trainerA === this.currentTurn
+        ? this.trainerA.name
+        : this.trainerB.name
+    );
 
     if (
       defendingPokemon.strongAgainst === attackingPokemon.type &&
@@ -49,6 +53,13 @@ class Battle {
       console.log("It's super effective!");
     }
     defendingPokemon.takeDamage(damage);
+    console.log(
+      `${
+        this.trainerA === this.currentTurn
+          ? this.trainerB.name
+          : this.trainerA.name
+      }'s ${defendingPokemon.name} took ${damage} damage!`
+    );
     this.currentTurn =
       this.trainerA === this.currentTurn ? this.trainerB : this.trainerA;
     if (defendingPokemon.hasFainted()) {

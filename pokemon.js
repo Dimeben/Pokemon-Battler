@@ -8,8 +8,8 @@ class Pokemon {
   takeDamage(damage = 20) {
     this.hitPoints -= damage;
   }
-  useMove() {
-    console.log(`${this.name} used ${this.move}.`);
+  useMove(trainer) {
+    console.log(`${trainer}'s ${this.name} used ${this.move}.`);
     return this.attackDamage;
   }
   hasFainted() {

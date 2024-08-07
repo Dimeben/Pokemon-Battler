@@ -1,4 +1,4 @@
-const { Pokeball } = require("pokeball.js");
+const { Pokeball } = require("../Pokemon-Battler/pokeball.js");
 
 class Trainer {
   constructor(name) {
@@ -50,7 +50,7 @@ class Trainer {
     }
   }
   allFainted() {
-    return this.belt.every((obj) => obj.storage.hitPoints === 0)
+    return this.belt.every((obj) => obj.storage.hitPoints === 0);
   }
 }
 
