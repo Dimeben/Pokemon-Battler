@@ -24,7 +24,7 @@ Welcome to Pokémon Battler! Relive the nostalgia with this text-based Pokémon 
 
 #### In your local machine's terminal, run:
 
-> git clone https://github.com/Dimeben/react-hangman-game.git <br>
+> git clone https://github.com/Dimeben/Pokemon-Battler.git <br>
 
 #### Once it has downloaded, run:
 
