@@ -1,86 +1,64 @@
 # Pokémon Battler!
 
+![Welcome to Pokemon Battler](readme-imgs/1.png)
+
 ## Description
+
 Welcome to Pokémon Battler! Relive the nostalgia with this text-based Pokémon battle simulator.
 
-# Pokémon Battler!
-<HTML>
-    <HEAD>
-    <TITLE> Pokémon Battler!
-    </TITLE>
-    </HEAD>
-    <BODY>
-    <PRE>
-               _,........__
-            ,-'            "`-.
-          ,'                   `-.
-        ,'                        \
-      ,'                           .
-      .'\               ,"".       `
-     ._.'|             / |  `       \
-     |   |            `-.'  ||       `.
-     |   |            '-._,'||       | \
-     .`.,'             `..,'.'       , |`-.
-     l                       .'`.  _/  |   `.
-     `-.._'-   ,          _ _'   -" \  .     `
-`."""""'-.`-...,---------','         `. `....__.
-.'        `"-..___      __,'\          \  \     \
-\_ .          |   `""""'    `.           . \     \
-  `.          |              `.          |  .     L
-    `.        |`--...________.'.        j   |     |
-      `._    .'      |          `.     .|   ,     |
-         `--,\       .            `7""' |  ,      |
-            ` `      `            /     |  |      |    _,-'"""`-.
-             \ `.     .          /      |  '      |  ,'          `.
-              \  v.__  .        '       .   \    /| /              \
-               \/    `""\"""""""`.       \   \  /.''                |
-                `        .        `._ ___,j.  `/ .-       ,---.     |
-                ,`-.      \         ."     `.  |/        j     `    |
-               /    `.     \       /         \ /         |     /    j
-              |       `-.   7-.._ .          |"          '         /
-              |          `./_    `|          |            .     _,'
-              `.           / `----|          |-............`---'
-                \          \      |          |
-               ,'           )     `.         |
-                7____,,..--'      /          |
-                                  `---.__,--.'mh
-    </PRE>
-    </BODY>
-    </HTML>
+## Skills
 
+- **JavaScript**
+- **Jest**
+- **Node.js**
+- **Object-Oriented Programming (OOP)**
+- **Test-Driven Development**
+- **Promises**
+- **Inquirer**
 
-# Install Node:
+## Setup
 
-##  installs nvm (Node Version Manager)
+#### Clone the repository:
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+> Click the green `Code` button and copy the URL <br>
 
-##  download and install Node.js (you may need to restart the terminal)
+#### In your local machine's terminal, run:
 
-nvm install 20
+> git clone https://github.com/Dimeben/react-hangman-game.git <br>
 
-## verifies the right Node.js version is in the environment
+#### Once it has downloaded, run:
 
-node -v # should print `v20.16.0`
+> cd /pokemon-battler <br>
+> code . <br>
 
-##  verifies the right npm version is in the environment
+#### To begin, install npm & Node.js by following this link:
 
-npm -v # should print `10.8.1`
+[Install npm and Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-# Install Inquirer:
+> Made using Node.js v22.4.1
 
-npm install inquirer@^8.0.0
+#### Install the dependencies by running the following in your terminal:
 
-# Running the Game
+> npm i
 
-Right-click on the inquirer.js file and copy the path.
+#### Running the game:
 
-Open your terminal.
+> Right-click on the inquirer.js file and copy the path.
 
-Enter the following command: node
+> Open your terminal.
 
-Paste the file path you copied.
+#### Enter the following command:
 
-Press Enter and enjoy the game!
+> node file-path-you-just-copied
 
-# Have fun battling your favorite Pokémon!
+> Press Enter and enjoy the game!
+
+#### Have fun battling your favorite Pokémon!
+
+## Images:
+
+![Chose your Pokemon!](readme-imgs/2.png)
+
+![You caught a Pokemon!](readme-imgs/3.png)
+
+![Battle text](readme-imgs/4.png)
